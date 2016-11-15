@@ -203,7 +203,7 @@ footer {
     text-transform: uppercase;
 }
 
-.page_footer.monday a {
+.page_footer.sunday a {
     color: red;
 }
 

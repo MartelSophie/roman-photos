@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url('images/robot3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.contourh {
+  width: 6vh;
+  height: 100vh;
+  background-color: #212121;
+}
+.contourw {
+  width: 100vw;
+  height: 6vh;
+  background-color: #212121;
+}
+#left {
+  position: absolute;
+
+}
+#right {
+  position: absolute;
+  right: 0;
+}
+#top {
+  position: absolute;
+  top: 0;
+}
+#bot {
+  position: absolute;
+  bottom: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+#rdy {
+  position: absolute;
+  width: 25vw;
+  height: 5vh;
+  background-color: white;
+  left: calc(50vw - 6vh);
+  top: 32vh;
+}
+@media (max-width: 500px) {
+  .contourh {
+    width: 4vh;
+    height: 100vh;
+    background-color: #212121;
+  }
+  .contourw {
+    width: 100vw;
+    height: 4vh;
+    background-color: #212121;
+  }
+
+
+}
+@media (max-width: 450px) {
+  .contourh {
+    width: 2vh;
+    height: 100vh;
+    background-color: #212121;
+  }
+  .contourw {
+    width: 100vw;
+    height: 2vh;
+    background-color: #212121;
+  }
+
+
+}
+@media (max-width: 400px) {
+  .contourh {
+    width: 1vh;
+    height: 100vh;
+    background-color: #212121;
+  }
+  .contourw {
+    width: 100vw;
+    height: 1vh;
+    background-color: #212121;
+  }
+
+
+}
+@media (max-width: 370px) {
+  .contourh {
+    display: none;
+  }
+  .contourw {
+    display: none;
+  }
+
+
+}
